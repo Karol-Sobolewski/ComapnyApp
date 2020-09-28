@@ -80,9 +80,9 @@ exports.remove = async (req, res) => {
     try {
         const dep = await (Department.findById(req.params.id));
         if (dep) {
-            res.json(dep);
             //await dep.deleteOne({_id: req.params.id}); //? może być tak?
-            await Department.deleteOne({ _id: req.params.id });
+            await dep.deleteOne();
+            res.json(dep);
         }
         else res.status(404).json({ message: 'Not found...' });
     }
