@@ -5,6 +5,7 @@ const Department = require('../department.model.js');
 const Employee = require('../employee.model');
 
 describe('Employee', () => {
+  /* eslint-disable */
   describe('Reading data', () => {
     before(async () => {
       const testDepOne = new Department({ name: 'Department #3' });
