@@ -19,7 +19,7 @@
     "mongoose": "5.7.1",
     "nodemon": "^1.19.1",
     "onchange": "6.1.0",
-    "tap": "^14.10.8",
+    "tap": "^15.0.10",
     "util.promisify": "^1.0.1"
   }
 }
