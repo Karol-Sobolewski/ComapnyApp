@@ -17,7 +17,7 @@
     "mongodb": "3.3.2",
     "mongodb-memory-server": "^6.9.2",
     "mongoose": "5.7.1",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.17",
     "onchange": "6.1.0",
     "tap": "^14.10.8",
     "util.promisify": "^1.0.1"
