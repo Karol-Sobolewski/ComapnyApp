@@ -15,11 +15,11 @@
     "express": "^4.17.1",
     "mocha": "^8.2.0",
     "mongodb": "3.3.2",
-    "mongodb-memory-server": "^6.9.2",
+    "mongodb-memory-server": "^8.12.0",
     "mongoose": "5.7.1",
     "nodemon": "^1.19.1",
     "onchange": "6.1.0",
-    "tap": "^14.10.8",
+    "tap": "^18.0.0",
     "util.promisify": "^1.0.1"
   }
 }
